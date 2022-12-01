@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="./popupForm.css">
+    <script src="./popupForm.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="top-heading">PopUp Form</h1>
+    </header>
+
+    <div class="main">
+
+        <h3>Creating a popup form for login<br><br> tap below to login</h3>
+
+        <button class="open-form btn" onclick="openForm()"><b>Login Here</b></button><br>
+
+        <div class="form-popup" id="mainForm">
+
+            <form>
+                <h1 id="main-heading">Login</h1>
+
+                <label for="Email" class="email"><b>Email</b></label><br>
+                <input class="input-email" type="text" placeholder="Enter Email"><br><br>
+
+                <label for="Password" class="password"><b>Password</b></label><br>
+                <input class="input-password" type="password" placeholder="Enter Password"><br>
+
+                <button type="submit" class="login-btn btn"><b>Login</b></button><br>
+                <button type="button" class="close-btn btn" onclick="closeForm()"><b>Close</b></button>
+
+            </form>
+
+        </div>
+    </div>
+
+    <footer>
+        &copy; Copyright <em>SabinPanthi</em>
+    </footer>
+
+</body>
+
+</html>
